@@ -14,7 +14,8 @@
 
 /*=================CMON=================*/
 .link{
-    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -32,18 +33,18 @@ letter-spacing: 0.02em;
 .list{
     list-style: none;
 }
-.link{
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-}
-
 body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto',sans-serif;
+}
+.feedback-header{
+    color: var(--feedback-color);
+}
+.link-potfolio,
+.link-potfolio:focus,
+.link-potfolio:active,
+.link-potfolio:hover{
+    text-decoration: none;
     color: var(--primary-text-color);
 }
 /*=================/CMON=================*/
@@ -54,7 +55,6 @@ body {
 
 .logo{
     text-decoration: none;
-    font-family: 'Raleway',sans-serif;
 
 font-style: normal;
 font-weight: 700;
@@ -66,18 +66,37 @@ letter-spacing: 0.03em;
 span{
     color: var(--accent-color);
 }
+.feedback-adress{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
 .feedback{
-    color: var(--feedback-color);
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
 
 /*=================/HEADER=================*/
 
 
 /*=================TEXT=================*/
-
+.studio{
+    color: var(--accent-color);
+}
+.main-section-color{
+    background-color: var(--background-color);
+    padding-top: 200px;
+    padding-bottom: 210px;
+    margin-bottom: 94px;
+}
 .main-text{
-    font-family: 'Roboto',sans-serif;
-
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -85,7 +104,6 @@ line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-background-color: var(--background-color);
 color: var(--text-color);
 }
 .invisible{
@@ -103,7 +121,6 @@ color: var(--text-color);
 .main-button{
     margin: 0 auto;
   display: block;
-    font-family: 'Roboto',sans-serif;
 
 font-style: normal;
 font-weight: 700;
@@ -127,7 +144,7 @@ border: none;
     background-color: var(--background-button-color);
 }
 .saptitel{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -139,7 +156,7 @@ color: var(--primary-text-color);
 
 }
 .sabtitel{
-    font-family: 'Roboto',sans-serif;
+    
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -151,7 +168,7 @@ color: var(--feedback-color);
     background-color: var(--background-buttons-color);
 }
 .team{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -161,7 +178,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .names{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 500;
@@ -171,7 +188,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 .jobs{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 400;
@@ -179,6 +196,7 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
+color: var(--feedback-color);
 }
 .footer-logo{
     color: var(--text-color);
@@ -186,14 +204,16 @@ letter-spacing: 0.03em;
 footer{
     background-color: var(--background-color);
 }
-
 /*=================/TEXT=================*/
 
 
 /*=================PORTFOLIO================*/
+.portfolio{
+    color: var(--accent-color);
+}
 
 .menu-link{
-    font-family: 'Roboto', sans-serif;
+    
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -202,9 +222,6 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 letter-spacing: 0.02em;
 }
-/*.portfolio-background{
-    background-color: var(--portfolio-background-color);
-}*/
 .button{
     margin-top: 5;
     font-family: 'Roboto';
@@ -227,7 +244,7 @@ border-radius: 4px;
     background: var(--accent-color);
 }
 .portfolio-headers{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 700;
@@ -236,13 +253,14 @@ line-height: 2;
 letter-spacing: 0.06em;
 }
 .headers-veiw{
-    font-family: 'Roboto',sans-serif;
+    
 
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.03em;
+color: var(--feedback-color);
 }
 
 /*=================/PORTFOLIO================*/
